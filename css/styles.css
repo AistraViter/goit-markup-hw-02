@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: white;
+  letter-spacing: 0.02em;
 }
 
 h2,
@@ -77,8 +78,9 @@ ul {
 .team-section {
   background-color: #f4f4fd;
 }
-
-
+.teammate-subsection {
+  background-color: white;
+}
 
 .website-title {
   color: white;
@@ -89,13 +91,16 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.section-title {
+.section-title,
+.team-section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.11;
 }
-
-
+.team-section-title, {
+  text-align: center;
+  text-transform: capitalize;
+}
 
 .strengths-title,
 .teammate-name,
@@ -117,7 +122,7 @@ ul {
   text-align: center;
   cursor: pointer;
 }
-.button-text:hover, 
+.button-text:hover,
 .button-text:focus {
   background-color: #404bbf;
 }
