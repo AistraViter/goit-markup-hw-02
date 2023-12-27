@@ -1,14 +1,16 @@
 body {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 2%;
+  color: #434455;
+  background-color: white;
+  letter-spacing: 0.02em;
 }
+
 h2,
 h3 {
   color: #2e2f42;
 }
 
 p {
-  color: #434455;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -18,31 +20,34 @@ ul {
 }
 
 .logo-text {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 18px;
-  line-height: 1.167;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
 }
-.logo-text .web {
-  color: #4d5ae5;
+.logo-text .studio {
+  color: #2e2f42;
+
 }
 
 .nav-text {
   color: #2e2f42;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .nav-text:active,
 .nav-text:hover,
+.nav-text:focus,
 .contacts-text:active,
 .contacts-text:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .contacts-text {
@@ -51,6 +56,7 @@ ul {
   line-height: 1.5;
   text-decoration: none;
   font-style: normal;
+
 }
 
 .footer-text {
@@ -66,20 +72,20 @@ ul {
   background-color: #2e2f42;
   font-weight: bold;
   font-size: 56px;
-  line-height: 1.071;
+  line-height: 1.07;
   text-align: center;
 }
 
 .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
 }
 
 .strengths-title {
   font-weight: medium;
   font-size: 24px;
-  line-height: 1.333;
+  line-height: 1.33;
 }
 
 .teammate-name,
@@ -94,7 +100,7 @@ ul {
   background-color: #4d5ae5;
   font-weight: bold;
   font-size: 16px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   text-align: center;
 }
 
