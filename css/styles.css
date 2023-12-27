@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2%;
+}
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-text {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 3%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.logo-text .web {
+  color: #4d5ae5;
+}
+
+.nav-text {
+  color: #2e2f42;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.nav-text:active,
+.nav-text:hover,
+.contacts-text:active,
+.contacts-text:hover {
+  color: #4d5ae5;
+}
+
+.contacts-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.website-title {
+  color: white;
+  background-color: #2e2f42;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.071;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.111;
+}
+
+.strengths-title {
+  font-weight: medium;
+  font-size: 24px;
+  line-height: 1.333;
+}
+
+.teammate-name,
+.product-name {
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.button-text {
+  color: white;
+  background-color: #4d5ae5;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 4%;
+  text-align: center;
+}
+
