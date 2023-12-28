@@ -29,9 +29,13 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
 }
-.studio {
+.studio-header {
   color: #2e2f42;
 }
+.studio-footer {
+  color: #f4f4fd;
+}
+
 
 .nav-text {
   color: #2e2f42;
